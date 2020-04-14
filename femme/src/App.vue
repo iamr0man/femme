@@ -1,27 +1,19 @@
 <template>
   <div id="app">
-    Femme
+    <intro />
   </div>
 </template>
 
 <script>
+import Intro from './components/Intro.vue'
+
 export default {
   name: "App",
+  components: {
+    Intro
+  }
 };
 </script>
 
 <style lang="scss">
-
-@font-face {
-  font-family: "Femme";
-  src: url('./assets/fonts/femme.ttf')
-}
-
-#app {
-  font-family: "Femme", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  margin-top: 60px;
-}
 </style>
