@@ -7,6 +7,7 @@
     <leon-quote />
     <alphabet />
     <perspective />
+    <about />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import Cities from './views/Cities.vue'
 import LeonQuote from './views/LeonQuote.vue'
 import Alphabet from './views/Alphabet.vue'
 import Perspective from './views/Perspective.vue'
+import About from './views/About.vue'
 
 export default {
   name: "App",
@@ -28,7 +30,8 @@ export default {
     Cities,
     LeonQuote,
     Alphabet,
-    Perspective
+    Perspective,
+    About
   }
 };
 </script>
