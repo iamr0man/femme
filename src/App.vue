@@ -4,10 +4,13 @@
     <details180 />
     <love-quote />
     <cities />
+    <photos />
     <leon-quote />
     <alphabet />
     <perspective />
     <about />
+    <ovals />
+    <invite />
   </div>
 </template>
 
@@ -20,6 +23,9 @@ import LeonQuote from './views/LeonQuote.vue'
 import Alphabet from './views/Alphabet.vue'
 import Perspective from './views/Perspective.vue'
 import About from './views/About.vue'
+import Photos from './views/Photos.vue'
+import Ovals from './views/Ovals.vue'
+import Invite from './views/Invite.vue'
 
 export default {
   name: "App",
@@ -31,7 +37,10 @@ export default {
     LeonQuote,
     Alphabet,
     Perspective,
-    About
+    About,
+    Photos,
+    Ovals,
+    Invite
   }
 };
 </script>
