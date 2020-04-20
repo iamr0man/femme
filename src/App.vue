@@ -10,8 +10,9 @@
     <perspective />
     <about />
     <ovals />
-    <invite />
     <brand />
+    <invite />
+    <films />
   </div>
 </template>
 
@@ -28,6 +29,7 @@ import Photos from './views/Photos.vue'
 import Ovals from './views/Ovals.vue'
 import Invite from './views/Invite.vue'
 import Brand from './views/Brand.vue'
+import Films from './views/Films.vue'
 
 export default {
   name: "App",
@@ -43,7 +45,8 @@ export default {
     Photos,
     Ovals,
     Invite,
-    Brand
+    Brand,
+    Films
   }
 };
 </script>
