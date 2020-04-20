@@ -11,6 +11,7 @@
     <about />
     <ovals />
     <invite />
+    <brand />
   </div>
 </template>
 
@@ -26,6 +27,7 @@ import About from './views/About.vue'
 import Photos from './views/Photos.vue'
 import Ovals from './views/Ovals.vue'
 import Invite from './views/Invite.vue'
+import Brand from './views/Brand.vue'
 
 export default {
   name: "App",
@@ -40,7 +42,8 @@ export default {
     About,
     Photos,
     Ovals,
-    Invite
+    Invite,
+    Brand
   }
 };
 </script>
